@@ -53,7 +53,7 @@
 }
 
 .site-list__item:hover {
-  background-color: #766357;
+  background-color: #669ec0;
 
   @media (min-width: $tablet-width) {
     background-color: #ffffff;
@@ -77,8 +77,10 @@
   }
 }
 
+.site-list__item a:hover {
+  color: #81b3d2;
+}
+
 .site-list__item a:active {
-  @media (min-width: $tablet-width) {
-    color: #766357;
-  }
+  color: #766357;
 }

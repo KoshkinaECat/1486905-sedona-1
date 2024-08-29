@@ -121,6 +121,6 @@
   color: rgb(255, 255, 255, 0.3);
 }
 
-.modal__button--disabled {
+.modal__button[disabled] {
   background-color: #e5e5e5;
 }
